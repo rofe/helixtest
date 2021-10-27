@@ -358,5 +358,9 @@ async function decoratePage(win = window) {
 }
 
 // decoratePage(window);
+setTimeout(() => {
+  for (let i = 0; i < 1000; i ++) {
+    document.body.innerHTML += '<br>foobar';
+  }
+}, 300);
 
-prompt('this is kaput!')

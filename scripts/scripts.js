@@ -357,4 +357,6 @@ async function decoratePage(win = window) {
   }
 }
 
-decoratePage(window);
+// decoratePage(window);
+
+prompt('this is kaput!')

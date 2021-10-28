@@ -359,8 +359,4 @@ async function decoratePage(win = window) {
 
 decoratePage(window);
 
-if (window.location.href.includes('slow')) {
-  for (let i = 0; i < 1000; i++) {
-    document.body.innerHTML += `Test ${i}<br>`;
-  }
-}
+// bad idea
